@@ -1,4 +1,4 @@
-# Kubernetes Build Farm Watcher
+# Kubernetes Build Farm Controller
 
 A configurable Kubernetes watcher that monitors pods and jobs across all namespaces based on label selectors. The watcher automatically restarts at configurable intervals to force cache reloads and supports running multiple concurrent watchers. Optionally includes secrets and jobs listing functionality for API server load testing.
 
